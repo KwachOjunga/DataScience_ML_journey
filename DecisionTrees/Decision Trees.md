@@ -9,6 +9,9 @@ The features are descriptive elements that offer variability in an attempt at tr
 ML models when thought about in the broad sense can be thought of as attempts at trying to find an aggregate that quite accurately describes a phenomenon. This is finding the function $f(x)$   that maps the features $x$ .
 
 So we have a set of features that describe properties of individual bearings whose outcome we know of when they are subjected to some force therefore we are attempting to determine the outcome of future bearings given the historical data.
+An example of a decision tree:
+![decision Tree](../images/tree_graph.png)
+
 
 ### How they work
 With decision trees the first split is made with a feature that attempts to classify the the features definitively to their outcomes. This is synonymous with establishing purity in a dataset. At the upper sections of the tree, the split may not result to completely pure descriptions of the outcomes but as the tree grows, the capbility of the tree to classify the outcome based on the selected attribute increases.
