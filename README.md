@@ -4,8 +4,10 @@
 
  This repository explores my Machine learning journey exploring various algorithms such as:
   - DecisionTrees
-    - Third revision outdid the first model **titaninc_EDA.ipynb** by a slight margin :smiling:
+    - Third revision outdid the first model **titaninc_EDA.ipynb** by a slight margin :smile:
+    - Fourth revision using random forests and voting classifier has outdone the previous ones though still below the bar
   - Random forests
+    - Still uncertain how these work though.
   - KNearest Neighbours
   - Linear Regression 
   - Logistic Regression
@@ -14,4 +16,4 @@
   - Perceptron
   - SVM
 
-Let's see what awaits :smiling:
+Let's see what awaits :satisfied:
