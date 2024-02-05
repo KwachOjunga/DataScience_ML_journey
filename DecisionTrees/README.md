@@ -25,18 +25,25 @@ In this atttempt to classify the features to their outomes, certain criteria are
 
 - **Information Gain**
 Information Gain as applied in machine learning has its roots in Shannon's Information Theory.
+```math
                 $\text{Info(D)} = -\sum_{i=1}^m P_i log_2 (P_i)$
+```
 
 $P_i$ in this case is the probability of having a particular outcome given the set of multiple possible outcomes. i.e $\frac{|C_i,D|}{|D|}$ 
 
 $Info(D)$ describes the entropy of the dataset D. The higher the number of possible target outcomes, the higher the entropy. A dataset with only 1 outcome results to zero entropy.
-            $Info_A(D) =\sum_{j=1}^m \left(\frac{|D_j|}{|D|}\right) * Info(D_j)$
 
+```math
+            $Info_A(D) =\sum_{j=1}^m \left(\frac{|D_j|}{|D|}\right) * Info(D_j)$
+```
 
  $Info_A D$ describes the amount of information still needed after partitioning to arrive at an exact classification.
 
 The information gain is the difference between original information requirement and new requirement obtained after partitioning on A.
-                    $Gain_A = Info(D) - Info_A(D)$
+                   
+```math
+			 $Gain_A = Info(D) - Info_A(D)$
+```
 
 $Gain(A)$ - the attribute $(A)$ with the highest gain becomes the selected criteria for splitting of the node.
 ___
