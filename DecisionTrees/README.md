@@ -23,7 +23,9 @@ In this atttempt to classify the features to their outomes, certain criteria are
   - Split Gain Ratio
   - Gini index
 
-- **Information Gain**
+**Information Gain**
+
+
 Information Gain as applied in machine learning has its roots in Shannon's Information Theory.
 ```math
                 \text{Info(D)} = -\sum_{i=1}^m P_i log_2 (P_i)
